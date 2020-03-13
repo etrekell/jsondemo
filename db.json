@@ -1,20 +1,31 @@
-[
-    {
-        "userId": 1,
+{
+    "posts": [
+      {
         "id": 1,
-        "title": "This is a custom test",
-        "body": "Test test test test test test test test test test test test test test test test test test test test test test test test test"
-    },
-    {
-        "userId": 1,
+        "title": "Post 1"
+      },
+      {
         "id": 2,
-        "title": "Test for 2nd object",
-        "body": "Testing 2nd object Testing 2nd object Testing 2nd object Testing 2nd object Testing 2nd object Testing 2nd object Testing 2nd object"
-    },
-    {
-        "userId": 1,
+        "title": "Post 2"
+      },
+      {
         "id": 3,
-        "title": "Test for 3rd object",
-        "body": "Testing 3rd object Testing 3rd object Testing 3rd object Testing 3rd object Testing 3rd object Testing 3rd object"
+        "title": "Post 3"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
     }
-]
+  }
